@@ -1,0 +1,16 @@
+build:
+  gpu: true
+  python_version: "3.10"
+  system_packages:
+    - git
+  python_packages:
+    - torch
+    - diffusers
+    - transformers
+    - accelerate
+    - controlnet-aux
+    - pillow
+    - safetensors
+    - opencv-python
+
+predict: "predict.py:Predictor"
