@@ -1,0 +1,8 @@
+torch
+diffusers
+transformers
+accelerate
+controlnet-aux
+pillow
+opencv-python
+safetensors
